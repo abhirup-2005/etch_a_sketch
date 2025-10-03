@@ -1,0 +1,19 @@
+.container {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rowDisplay {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    border: black solid 1px;
+}
+
+.columnDisplay {
+    flex: 1;
+    border: red solid 1px;
+    background-color: black;
+}
