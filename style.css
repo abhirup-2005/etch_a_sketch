@@ -1,19 +1,70 @@
-.container {
-    width: 350px;
-    height: 350px;
+* {
+    box-sizing: border-box;
+}
+
+body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+    margin: 0;
+}
+
+h1 {
+    background-color: maroon;
+    color: wheat;
+    margin: 0;
+    padding: 10px;
+}
+
+.editButtons > * {
+    background-color: lightskyblue;
+    color: black;
+    border: 5px solid;
+    border-top-color: rgb(76, 76, 76);
+    border-left-color: rgb(76, 76, 76);
+    border-right-color: black;
+    border-bottom-color: black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.editButtons > *:hover {
+    background-color: lightgreen;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: rgb(76, 76, 76);
+    border-bottom-color: rgb(76, 76, 76);
+}
+
+.container {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 20px black solid;
+    border-radius: 20px;
+    align-self: center;
 }
 
 .rowDisplay {
     display: flex;
     justify-content: space-evenly;
     flex: 1;
-    border: black solid 1px;
 }
 
 .columnDisplay {
     flex: 1;
-    border: red solid 1px;
-    background-color: black;
+    border: black solid 1px;
+    background-color: gray;
+}
+footer {
+    background-color: rgb(95, 1, 1);
+    color: wheat;
+    padding: 10px;
 }
